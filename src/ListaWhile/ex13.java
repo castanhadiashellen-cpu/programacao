@@ -1,10 +1,24 @@
 package ListaWhile;
 
+import java.util.Scanner;
+
 public class ex13 {
 
 	public static void main(String[] args) {
-		// TODO Stub de método gerado automaticamente
+	      Scanner scanner = new Scanner(System.in);
 
+	        System.out.print("Digite um número: ");
+	        int numero = scanner.nextInt();
+
+	        int contador = 1;
+
+	        while (contador <= 10) {
+
+	            System.out.println(numero + " x " + contador + " = " + (numero * contador));
+	            contador++;
+	        }
+
+	        scanner.close();
 	}
 
 }

@@ -3,8 +3,13 @@ package ListaWhile;
 public class ex11 {
 
 	public static void main(String[] args) {
-		// TODO Stub de método gerado automaticamente
+	    int numero = 1;
 
+        while (numero <= 20) {
+
+            System.out.println(numero);
+            numero++;
+        }
 	}
 
 }
