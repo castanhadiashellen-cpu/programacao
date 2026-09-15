@@ -1,0 +1,21 @@
+package Scanner1;
+
+import java.util.Scanner;
+
+public class ex6 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+        double valorEmDolares = 75.00;
+        double cotacaoDolar = 5.62;
+
+        double valorEmReais = valorEmDolares * cotacaoDolar;
+
+        System.out.printf("O monitor custa %.2f reais%n", valorEmReais);
+
+        scanner.close();
+
+	}
+
+}
