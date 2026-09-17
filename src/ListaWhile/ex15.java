@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ex15 {
 
 	public static void main(String[] args) {
-	    Scanner scanner = new Scanner(System.in);
+	    Scanner leia = new Scanner(System.in);
 
         int contador = 1;
         double soma = 0;
@@ -13,9 +13,9 @@ public class ex15 {
         while (contador <= 5) {
 
             System.out.print("Digite a nota: ");
-            double nota = scanner.nextDouble();
+            double nota = leia.nextDouble();
 
-            soma = soma + nota;
+            soma = soma + nota; //soma+=nota;
             contador++;
         }
 
@@ -24,7 +24,7 @@ public class ex15 {
         System.out.println("Soma das notas = " + soma);
         System.out.println("Média das notas = " + media);
 
-        scanner.close();
+        leia.close();
 
 	}
 
